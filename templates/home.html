@@ -1,0 +1,78 @@
+{% extends 'layout.html'%}
+
+{%block body%}
+<div class="jumbotron text-center">
+	<h1> PAPS</h1>
+	<p class="lead">Respond to Gun Violence.</p>
+
+
+</div>
+
+<div class="content text-center ">
+	<h1>Big <DATALIST></DATALIST>a and Machine Learning</h1>
+		<p> New Technologies provide a solution to Data</p>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2>About Me</h2>
+      <h5>Photo of me:</h5>
+      <div class="fakeimg">Fake Image</div>
+      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+      <p>Lorem ipsum dolor sit ame.</p>
+      <ul class="nav nav-pills nav-stacked">
+        <li class="active"><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+        <li><a href="#">Link 3</a></li>
+      </ul>
+      <hr class="hidden-sm hidden-md hidden-lg">
+    </div>
+    <div class="col-sm-8">
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Dec 7, 2017</h5>
+      <div class="fakeimg">Fake Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+      <br>
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Sep 2, 2017</h5>
+      <div class="fakeimg">Fake Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+
+      <div>
+      	<h2>Calculator</h2>
+      	<p> Enter Address, Month, Weekday, and City to Calculate Risk!</p>
+        <form method="POST" action = "/">
+        	<div class="form-group">
+
+			    Address: <input type="text" name="Address">
+			    Month: <input type="text" name ="Month" >
+			    WeekDay: <input type="text" name="WeekDay">
+			    City: <input type="text" name="City">
+			</div>
+	    <input class="btn btn-primary" type= "submit" value="Calculate!">
+
+		</form>
+		<div>
+			<h3>Output: Address Risk of Shooting:</h3>
+			<tr>
+			{% for value in result %}
+         
+            <tr     border: 1px solid black;>
+                <td> {{ value }} </td>
+            </tr>
+        </tr>
+            
+         {% endfor %}
+     	</div>
+	</div>
+    </div>
+  
+  </div>
+</div>
+
+	
+{%endblock%} 
+
+
