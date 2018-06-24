@@ -28,4 +28,4 @@ def predicting_algo(Input):
 # For testing
 if __name__ == "__main__":
 	Input = "7660 oakdale street massillon ohio 44646|12|1|canton"#[34.049273,-118.245468,6,0]
-	print(predicting_algo(Input))
+	print(predicting_algo(Input), "sanity check")
