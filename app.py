@@ -59,9 +59,9 @@ def my_form_post():
 	weekday = str(weekday)
 
 	toReturn = address +"|"+month+"|"+weekday+"|"+city
-	#print(toReturn)
-	#return toReturn
-	return render_template('home.html',result=str(predicting_algo(toReturn)))
+	
+	
+	return render_template('home.html',result="%0.2f"% predicting_algo(toReturn) +'%')
 
 @app.route('/', methods = ["GET"])
 def index():
