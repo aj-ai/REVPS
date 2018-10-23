@@ -2,53 +2,66 @@
 
 {%block body%}
 <!DOCTYPE html>
-<
+<body><style>body{color1: rgba(1, 22, 39, 1);
+color2: rgba(247, 23, 53, 1);
+color3: rgba(65, 234, 212, 1);
+color4: rgba(253, 255, 252, 1);
+color5: rgba(255, 159, 28, 1);
+background-color:  rgba(255, 159, 28, 1);
+}
+
+</style>
 <div class="jumbotron text-center">
-	<h1> PAPS</h1>
-	<p class="lead">Respond to Gun Violence.</p>
+	<h1><b> RVPS: Reactive Vehicle Positioning System<b></h1>
+	<p class="lead"></p>
 
-
+	 <a href=https://pixel.nymag.com/imgs/daily/intelligencer/2016/01/12/11-chicago-gun-violence.w710.h473.2x.jpg>	<img src="https://pixel.nymag.com/imgs/daily/intelligencer/2016/01/12/11-chicago-gun-violence.w710.h473.2x.jpg" alt =" make this work" style="width:900px;height:600px;"></a>
 </div>
 
-<div class="content text-center ">
-	<h1> 	Big Data and Machine Learning</h1>
-		<p> New Technologies provide a solution to Data</p>
+<div class="content text-center" style="width: 1167px">
+	<p><font size="20"> <b>	Big Data and Machine Learning</b></font></p>
+		<div style= "background-color: rgba(253, 255, 252, 1); align-self: left;"><p><font size="8"><b>The RVPS uses 260,000 data points with machine learning to produce the RVPS algorithms.</b></font></p>
 <div class="container text-center">
   <div class="row">
       <div class="text-center">
-      <h5>With 260,000 Data Points </h5>
-      <div class="container text-center">Fake Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+     
+      <div class="container text-center">
+      <p align = "justify"><font size= "6">Deaths in shooting incidents often happen when a victim is not given the proper treatment in time; death can occur anywhere from seconds to minutes of bleeding out, making it crucial that ambulance stations are optimized around the city to ensure that they reach the scene promptly. In this scenario, an extra few seconds could be the difference between potential resuscitation and death.</font></p>
+  </div>
+</div>
       <br>
        <div>
-     		<h2>Ambulance Location Optimizer</h2>	
-				<p>Find help</p>
+     		<p style=" bold sans-serif;background-color:rgba(255, 159, 28, 1) "><font size="12"><b>Ambulance Location Optimizer</b></font></p>	
+				 <p><font size="8"><b> RVPS, through this application, provides emergency service providers with optimal location positioning information.</b>
+</font></p>
+			<p align = "justify"> <font size="6">Our incomplete dataset alone reports 60,468 killings and 118,402 injuries between the five year period the data was collected. Law enforcement and emergency medical services could radically decrease their response time if they could use a proactive approach in stationing their operational vehicles. This application of the PVPS would suggest the optimal location the emergency services providers should station their vehicles based off of the following inputs: month of the year, day of the week, and number of vehicles available.</font></p>
+</p>
 
 		</div>
-				<p style="font-size: 100">i hate america</p>
+
 
 
 	<div class="mapouter text">
 		<div class="gmap_canvas">
-			<iframe align="center" width="900" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=detroit&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+
+			<iframe align="center" width="900" height="500" id="gmap_canvas" src="https://www.google.com/maps/d/u/0/embed?mid=1hjkC_ZIezJheLrmGg0Fk79PAwR-HpVkd" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
 			<a href="https://www.pureblack.de">webdesign: pureblack.de</a></div>
 
-			<style>.mapouter{text-align:center; height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style>
+			<style>.mapouter{text-align:justify; height:500px;width:600px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;display:block}</style>
 
+	</div >
+	<div style="background-color: rgba(255, 159, 28, 1)">
+	 <p> <font size="10" ><b>Gun Violence Risk Calculator</b></h1></font></p>
 	</div>
-	  <h2 >Gun Violence Risk Calculator</h2>
-
-      <h5 >Using Machine Learning and Big Data </h5>
-      <div class="container text-center">Fake Image</div>
-      <p>Some text..</p>
-      <p>Deaths in shooting incidents often happen when a victim is not given the proper treatment in time; death can occur anywhere from seconds to minutes of bleeding out, making it crucial that ambulance stations are optimized around the city to ensure that they reach the scene promptly. In this scenario, an extra few seconds could be the difference between potential resuscitation and death.
-		</p>
-
+      <h2 ><b>Risk Calculator calculates the probability of a given location having a gun-violence incident.</b></h2>
+      <div class="container text-center">
+      <p ><font size= 6>The Risk Calculatoruses the inputted location, month, and day to calculate the probability of a gun-violence incident taking place near the inputted location. As gun violence has become an increasingly hot topic on the news, people have begun to worry a lot more about their own, and their family’s safety. This can be used in conjunction with checking out hotels, comparing potential real estate, evaluating current safety, for parents’ kids, etc.
+	</font>	</p>
+	</div>	
       <div class = "container text-center">
 
-      	<h2 class = "container text-center">Calculator</h2>
-      	<p> Enter Address, Month, Weekday, and City to Calculate Risk!</p>
+      	<h1 class = "container text-center">Calculator</h1>
+      	<p> Enter Address, Month, Weekday, and City to Calculate Risk</p>
         <form method="POST" action = "/">
         	<div class="form-group">
 			    Address: <input type="text" name="Address">
@@ -61,11 +74,11 @@
 		</form>
 
 		<div></div>
-			<h3>Output: Address Risk of Shooting:</h3>
+			<h3>Output: Address Risk of Violent Incident:</h3>
 
 		<div style="border: inset;border-width :thick">
 
-			<p style = "font-size: 500">{{result}}</p>
+			<p style = "font-size: 100">{{result}}</p>
             
      	</div>
 
@@ -77,11 +90,11 @@
   
   </div>
 </div>
-
+</body>
  <footer>
   <p>Posted by: Tumas Rackaitis</p>
-  <p>Contact information: <a href="mailto:someone@example.com">
-  someone@example.com</a>.</p>
+  <p>Contact information: <a href="trackait@oberlin.edu">
+  trackait@oberlin.edu</a>.</p>
 </footer> 
 	
 {%endblock%} 
